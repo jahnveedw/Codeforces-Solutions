@@ -1,4 +1,4 @@
-//1829B
+//1829B 
 import java.util.*;
 public class BlankSpace {
     public static void main(String[] args){
