@@ -6,9 +6,9 @@ public class CrimsonTriples {
         int t=sc.nextInt();
         for(int i=0;i<t;i++){
             int n=sc.nextInt();
-            int sum=0;
+            long sum=0;
             for(int j=1;j<=n;j++){
-                sum+=Math.pow(n/j,2);
+                sum+=(long)Math.pow(n/j,2);
             }
             System.out.println(sum);
         }
